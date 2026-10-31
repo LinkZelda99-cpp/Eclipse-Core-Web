@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0d1117">
+<title>ECLIPSE CORE WEB</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="mark">E</span><div><strong>ECLIPSE CORE</strong><small>WEB CONTROL</small></div></div><div id="connection" class="status"><i></i><span>CONNECTING</span></div></header>
+<main>
+<section class="hero"><p class="eyebrow">LOCAL DEVICE INTERFACE</p><h1>CORE <span>CONTROL</span></h1><p class="muted">Your device. Your network. No cloud required.</p></section>
+<section class="grid">
+<article class="panel device"><div class="panel-head"><span>DEVICE STATUS</span><span class="live">LIVE</span></div><div id="deviceState" class="big">SEARCHING</div><div class="meta"><span>IP ADDRESS</span><strong id="ipAddress">—</strong></div><div class="meta"><span>APPLICATION</span><strong id="appState">—</strong></div><div class="meta"><span>UPTIME</span><strong id="uptime">—</strong></div></article>
+<article class="panel"><div class="panel-head">REMOTE NAVIGATION</div><p class="muted small">These controls act like the physical rotary encoder and back button.</p><div class="dpad"><button data-action="up" aria-label="Move up">▲</button><div><button data-action="left" disabled aria-label="Move left">←</button><button data-action="select" class="primary">SELECT</button><button data-action="right" disabled aria-label="Move right">→</button></div><button data-action="down" aria-label="Move down">▼</button></div><button data-action="back" class="back">BACK</button><p id="commandMessage" class="hint">Connect to the same Wi-Fi network as CORE.</p></article>
+<article class="panel sensors"><div class="panel-head">SENSOR SNAPSHOT</div><div class="sensor-row"><span>LIGHT</span><strong id="light">—</strong></div><div class="sensor-row"><span>DISTANCE</span><strong id="distance">—</strong></div><div class="sensor-row"><span>TEMPERATURE</span><strong id="temperature">—</strong></div><div class="sensor-row"><span>HUMIDITY</span><strong id="humidity">—</strong></div><p class="hint">Readings update when the corresponding CORE sensor app refreshes them.</p></article>
+</section>
+<footer>ECLIPSE CORE WEB <span>LOCAL NETWORK ONLY · V1</span></footer>
+</main>
+<script src="assets/app.js"></script>
+</body></html>
