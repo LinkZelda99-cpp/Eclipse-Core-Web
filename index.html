@@ -8,12 +8,20 @@
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="brand">
-    <span class="mark" aria-hidden="true">E</span>
-    <div><strong>ECLIPSE CORE</strong><small>WEB CONTROL</small></div>
+<header id="site-header">
+  <a href="https://austinmcdonald.dev/" id="site-logo" aria-label="Austin McDonald — Home">
+    <img src="https://austinmcdonald.dev/images/logo.png" alt="">
+  </a>
+  <div class="header-right">
+    <nav aria-label="Main navigation">
+      <a href="https://austinmcdonald.dev/#about">About</a>
+      <a href="https://austinmcdonald.dev/#projects">Projects</a>
+      <a href="https://austinmcdonald.dev/#skills">Skills &amp; Technologies</a>
+      <a href="https://austinmcdonald.dev/#contact">Contact</a>
+      <a href="https://austinmcdonald.dev/blog/">Blog</a>
+    </nav>
+    <div id="connection" class="status"><i></i><span>CONNECTING</span></div>
   </div>
-  <div id="connection" class="status"><i></i><span>CONNECTING</span></div>
 </header>
 <main>
   <section class="hero">
@@ -49,8 +57,33 @@
       <p class="hint">Readings update when the corresponding CORE sensor app refreshes them.</p>
     </article>
   </section>
-  <footer><span>ECLIPSE CORE WEB</span><span>LOCAL NETWORK ONLY · V1</span></footer>
 </main>
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="https://austinmcdonald.dev/" id="footer-logo" aria-label="Austin McDonald — Home">
+        <img src="https://austinmcdonald.dev/images/logo.png" alt="">
+      </a>
+      <div class="footer-identity">
+        <p class="footer-name">Austin McDonald</p>
+        <p class="footer-tagline">Programmer &amp; Game Developer</p>
+      </div>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="https://austinmcdonald.dev/#about">About</a>
+      <a href="https://austinmcdonald.dev/#projects">Projects</a>
+      <a href="https://austinmcdonald.dev/#skills">Skills &amp; Technologies</a>
+    </nav>
+    <div class="footer-social">
+      <a href="https://github.com/LinkZelda99-cpp" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://linktr.ee/LinkZelda99" target="_blank" rel="noopener noreferrer">Linktree</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-photo-credit">Mountain photograph: &copy; 2022 Mark Durant Photography</p>
+    <p class="footer-copyright">&copy; 2026 Austin McDonald</p>
+  </div>
+</footer>
 <script src="assets/app.js"></script>
 </body>
 </html>
